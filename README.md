@@ -31,3 +31,5 @@ Here are some instructions to make it:
 
 Thanks if you read that and watched my youtube video about the card. I'll leave a link here too if you haven't seen it in FlavorTown:
 https://www.youtube.com/watch?v=TKKQ9AhvqFg&t
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/4d4faa7e-afa9-41c9-9ec4-0d4918536eab" />
