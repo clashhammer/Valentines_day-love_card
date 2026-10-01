@@ -1,35 +1,81 @@
-# Valentine-s-day-love-card
-A card with 14 LED's and an astable oscillator. The perfect gift to give to your couple. I give you the files so you can order it without having to make it youself.
-The parts you need are
-- 14 red LED's
-- 2 220uF Capacitors
-- 7 470Ω resistors
-- 2 5KΩ resistors
-- 2 1KΩ resistors
-- 1 10KΩ resistor
-- 1 switch
-- 1 AO3400 MOSFET
-- 2 2N2222 transistors
-- 1 9V battery cable
-- 1 9V battery
+# Valentine's Day Love Card ❤️
 
-Here are some instructions to make it:
-- resistor R1 is the 10KΩ one
-- resistors R2 and R4 are the 1KΩ ones
-- resistors R3 and R5 are the 5KΩ ones
-- resistors R6-R12 are the 470Ω ones
+A small Valentine's Day card built with **14 red LEDs** and an **astable oscillator** that makes the LEDs blink.
 
-- The anodes of the LED's go to the circle holes. The cathodes go to the square holes.
+The repository includes the PCB files, so you can order the board and assemble one yourself without having to design the circuit from scratch.
 
-- The capacitors' plus side go to the square holes and the minus side go to the circle holes.
+## Main Parts
 
-- The transistors go in the holes where the bulging part of the transistor points to the bulging part of the drawing around the hooles aka the emmiters of the transistors go to the square holes.
+| Quantity | Part |
+|---:|---|
+| 14x | Red LEDs |
+| 2x | 220 µF Capacitors |
+| 7x | 470 Ω Resistors |
+| 2x | 5 kΩ Resistors |
+| 2x | 1 kΩ Resistors |
+| 1x | 10 kΩ Resistor |
+| 1x | Switch |
+| 1x | AO3400 MOSFET |
+| 2x | 2N2222 Transistors |
+| 1x | 9V Battery Clip |
+| 1x | 9V Battery |
 
-- The battery plus side goes to the square hole and the minus goes to the circle hole.
+## Assembly
 
-- If you want the logo removed, just delete the front silkscreen file aka Love_Card-F_Silkscreen.gto
+### Resistors
 
-Thanks if you read that and watched my youtube video about the card. I'll leave a link here too if you haven't seen it in FlavorTown:
-https://www.youtube.com/watch?v=TKKQ9AhvqFg&t
+| Reference | Value |
+|---|---:|
+| R1 | 10 kΩ |
+| R2, R4 | 1 kΩ |
+| R3, R5 | 5 kΩ |
+| R6–R12 | 470 Ω |
+
+### LEDs
+
+Insert the LEDs according to the PCB markings:
+
+- **Anode (+)** → circular hole
+- **Cathode (−)** → square hole
+
+### Capacitors
+
+The electrolytic capacitors are polarized:
+
+- **Positive (+)** → square hole
+- **Negative (−)** → circular hole
+
+Make sure the polarity is correct before soldering them.
+
+### Transistors
+
+Install the 2N2222 transistors so that the curved side of the transistor matches the outline printed on the PCB.
+
+The emitter pins should go into the corresponding square holes.
+
+### Battery
+
+Connect the 9V battery with the correct polarity:
+
+- **Positive (+)** → square hole
+- **Negative (−)** → circular hole
+
+## Removing the Logo
+
+If you want to order the PCB without the logo, remove the front silkscreen file:
+
+`Love_Card-F_Silkscreen.gto`
+
+before sending the Gerber files to the PCB manufacturer.
+
+## Video
+
+I also made a video showing the finished card and how it works:
+
+[Watch the video on YouTube](https://www.youtube.com/watch?v=TKKQ9AhvqFg)
+
+---
+
+Thanks for checking out the project! ❤️
 
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/4d4faa7e-afa9-41c9-9ec4-0d4918536eab" />
